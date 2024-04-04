@@ -7,11 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>maven-assignment Maven Webapp</name>
   <url>http://maven.apache.org</url>
+   <properties>
+	<java.version>1.8</java.version>
+	<sonar.host.url>http://3.110.40.246:9000/</sonar.host.url>
+	<sonar.login>sqa_fff761d34c7114a41f15aed5de44596f0167f6f0</sonar.login>
+   </properties>
   <dependencies>
-    <properties>
-      <sonar.host.url>http://13.127.18.17:9000/</sonar.host.url>
-		<sonar.login>sqa_fff761d34c7114a41f15aed5de44596f0167f6f0</sonar.login>
-    </properties>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
