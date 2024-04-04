@@ -8,6 +8,10 @@
   <name>maven-assignment Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <properties>
+      <sonar.host.url>http://13.127.18.17:9000/</sonar.host.url>
+		<sonar.login>sqa_fff761d34c7114a41f15aed5de44596f0167f6f0</sonar.login>
+    </properties>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
